@@ -107,7 +107,7 @@ namespace TravisCILab
         {
             Assert.AreEqual(8, Program.Power("2", "3"));
             Assert.AreEqual(0.25, Program.Power("2", "-2"));
-            Assert.AreEqual(-0.0016, Program.Power("-5", "-4"));
+            Assert.AreEqual(0.0016, Program.Power("-5", "-4"));
         }
 
         [Test]
